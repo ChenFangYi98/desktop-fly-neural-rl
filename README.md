@@ -4,7 +4,8 @@
 
 > 在可编辑的三维生态中，用奖励信号训练连接组约束的果蝇神经控制器，再把模型部署到指定果蝇或 ROS 2 机器人。
 
-![三维训练工作室](docs/images/training-studio.png)
+<img width="1304" height="755" alt="ecosystem-brain" src="https://github.com/user-attachments/assets/6373561e-6b59-4971-8847-0760c124c7fd" />
+
 
 ## 项目简介
 
@@ -26,7 +27,8 @@ DesktopFly Neural RL 是一个面向研究、教学和原型验证的开源具�
 - 生态与大脑同屏：第一视角跟随哪只果蝇，实时大脑就显示同一只果蝇的神经活动。
 - ROS 2 导出：群体连接组运行时输出 `Twist`，包含超时停车、雷达安全距离和急停接口。
 
-![生态空间与实时大脑](docs/images/ecosystem-brain.png)
+<img width="1304" height="755" alt="training-studio" src="https://github.com/user-attachments/assets/c080784a-3ee9-4f97-ae9a-907f43cbec57" />
+
 
 ## 哪些是真实数据，哪些是工程模型
 
