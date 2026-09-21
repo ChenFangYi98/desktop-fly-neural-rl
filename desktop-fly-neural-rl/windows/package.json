@@ -1,0 +1,28 @@
+{
+  "name": "desktop-fly-windows",
+  "version": "1.1.0",
+  "description": "DesktopFly for Windows \u2014 a desktop fly with FlyWire and MaleCNS neural models",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "start:training": "set DESKTOPFLY_APP_MODE=training&& set DESKTOPFLY_LAB_ONLY=1&& electron .",
+    "start:observation": "set DESKTOPFLY_APP_MODE=observation&& set DESKTOPFLY_LAB_ONLY=1&& electron .",
+    "simtest": "node test/simtest.js",
+    "behaviortest": "node test/behaviortest.js",
+    "test": "node test/simtest.js && node test/behaviortest.js && node test/locomotortest.js && node test/skilltrainertest.js && node test/obstacletrainertest.js && node test/embodiedtrainertest.js && node test/volumetricworldtest.js && node test/openworldtest.js && node test/neuralrltest.js && node test/robotdeploymenttest.js",
+    "embodiedtrainertest": "node test/embodiedtrainertest.js",
+    "trainingpagesmoke": "electron test/trainingpagesmoke.js",
+    "locomotortest": "node test/locomotortest.js",
+    "ecosystemsmoke": "electron test/ecosystemsmoke.js",
+    "deploymentflowsmoke": "electron test/deploymentflowsmoke.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.169.0",
+    "koffi": "^2.9.0"
+  },
+  "devDependencies": {
+    "electron": "^32.2.0"
+  }
+}

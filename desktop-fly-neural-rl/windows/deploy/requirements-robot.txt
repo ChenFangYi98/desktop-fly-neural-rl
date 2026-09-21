@@ -1,0 +1,5 @@
+numpy>=1.26
+gymnasium>=0.29
+pybullet>=3.2
+stable-baselines3>=2.3
+torch>=2.2
